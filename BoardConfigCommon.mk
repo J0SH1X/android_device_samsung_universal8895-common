@@ -19,6 +19,9 @@ LOCAL_PATH := device/samsung/universal8895-common
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
+# Legacy-ADB
+TARGET_USES_LEGACY_ADB_INTERFACE := true
+
 # Firmware
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
